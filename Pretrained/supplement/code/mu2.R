@@ -329,7 +329,7 @@ bayes_multi_n <- function(y,c1,c2,c3){
     lambda1 <- li2[[2]]
     lambda2 <- li2[[3]]
     
-    m <- rgamma(1,am+r,bm+har(d[1]))
+    #m <- rgamma(1,am+r,bm+har(d[1]))
     #//update $\rho$
     rho <-  rbeta(1,arho+sum(c2),brho+d[2]*r-sum(c2))
     #//update $\gamma$
